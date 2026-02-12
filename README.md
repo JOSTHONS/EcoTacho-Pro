@@ -1,39 +1,56 @@
-# 🌿 EcoTacho Pro: Aplicación Ambiental Educativa
+# 🌿 EcoTacho Pro: Conciencia Ambiental Interactiva
 
-![Flask](https://img.shields.io/badge/Flask-v3.0.0-green?style=for-the-badge&logo=flask)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-v5.3.2-purple?style=for-the-badge&logo=bootstrap)
+![Flask](https://img.shields.io/badge/Flask-v3.0.0-000000?style=for-the-badge&logo=flask)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-v5.3.2-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## 📖 Descripción
+## 📖 Descripción del Proyecto
 
-**EcoTacho Pro** es una plataforma web interactiva diseñada para concientizar sobre la importancia del cuidado del medio ambiente. Desarrollada para la materia de **Tacho** en el **Quinto Cuatrimestre**, la aplicación se centra en la educación sobre Sistemas de Gestión Ambiental (SGA) y la práctica de las 3 R.
+**EcoTacho Pro** es una plataforma web educativa diseñada para informar y concientizar sobre el cuidado del medio ambiente. Este proyecto fue desarrollado como parte de la formación académica en el **Quinto Cuatrimestre** para la materia **Tacho**.
 
-### 🎯 Objetivos del Proyecto
+La aplicación permite navegar por conceptos clave como:
 
-- Implementar un backend sólido con **Python y Flask**.
-- Garantizar una **Experiencia de Usuario (UX)** fluida mediante el uso de _Breadcrumbs_ (migas de pan).
-- Diseño **Responsive** total para visualización en móviles y escritorio.
+- **SGA:** Sistemas de Gestión Ambiental y su importancia organizacional.
+- **Futuro:** Reflexión sobre la preservación para próximas generaciones.
+- **Las 3 R:** Guía práctica para Reducir, Reutilizar y Reciclar.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Requisitos e Instalación
 
-- **Backend:** Flask (Python)
-- **Frontend:** HTML5, CSS3, Jinja2
-- **Framework UI:** Bootstrap 5
-- **Iconografía:** Emojis y Google Fonts (Poppins/Roboto)
-
-## 📂 Estructura del Proyecto
-
-La arquitectura sigue las mejores prácticas de Flask para separar contenido estático de las plantillas:
-
-- `app.py`: Servidor y definición de rutas.
-- `static/`: Estilos CSS y activos visuales (Imágenes).
-- `templates/`: Plantillas HTML con herencia de componentes.
-
-## 🚀 Instalación y Uso Local
+Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
 1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/TU_USUARIO/EcoTacho-Pro.git](https://github.com/TU_USUARIO/EcoTacho-Pro.git)
-   cd EcoTacho-Pro
-   ```
+   `git clone https://github.com/TU_USUARIO/EcoTacho-Pro.git`
+
+2. **Crear y activar el entorno virtual:**
+   `python -m venv venv`
+   `.\venv\Scripts\activate`
+
+3. **Instalar dependencias:**
+   `pip install -r requirements.txt`
+
+4. **Lanzar la aplicación:**
+   `python app.py`
+
+---
+
+## 📂 Estructura de Ingeniería
+
+El proyecto sigue una estructura organizada de archivos para separar la lógica del diseño:
+
+- `app.py`: Backend y gestión de rutas dinámicas.
+- `templates/`: Plantillas HTML procesadas con Jinja2.
+- `static/`: Recursos estáticos como CSS personalizado e imágenes.
+
+---
+
+## 🎓 Datos Académicos
+
+- **Estudiante:** Josthyn (Gaby).
+- **Materia:** Aplicación Ambiental - Tacho.
+- **Periodo:** Enero - Junio 2026.
+
+---
+
+_Desarrollado con fines educativos para fomentar la sustentabilidad._
