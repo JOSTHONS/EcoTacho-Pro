@@ -24,12 +24,32 @@ El desarrollo se fundamenta en un stack robusto enfocado en la escalabilidad:
 
 ## 📸 Galería de Pruebas de Funcionamiento (Evidencia Visual)
 
-A continuación, se documenta la interfaz de usuario final mediante las 4 pruebas de validación técnica realizadas:
-
-|   🏠 1. Nodo de Inicio (User Experience)    | 📊 2. Sistema de Gestión Ambiental (SGA)  |
-| :-----------------------------------------: | :---------------------------------------: |
-|   ![Prueba 1](static/images/Prueba1.png)    |  ![Prueba 2](static/images/Prueba2.png)   |
-| _Presentación impactante con Hero Section._ | _Documentación técnica sobre normativas._ |
+<table style="width:100%">
+  <tr>
+    <td align="center" style="width:50%">
+      <h3>🏠 1. Nodo de Inicio</h3>
+      <img src="static/images/Prueba1.png" alt="Prueba 1" width="100%">
+      <p><em>Presentación impactante con Hero Section.</em></p>
+    </td>
+    <td align="center" style="width:50%">
+      <h3>📊 2. Sistema de Gestión (SGA)</h3>
+      <img src="static/images/Prueba2.png" alt="Prueba 2" width="100%">
+      <p><em>Documentación técnica sobre normativas.</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="width:50%">
+      <h3>🌎 3. Futuro del Planeta</h3>
+      <img src="static/images/Prueba3.png" alt="Prueba 3" width="100%">
+      <p><em>Enfoque en preservación generacional.</em></p>
+    </td>
+    <td align="center" style="width:50%">
+      <h3>♻️ 4. Guía Práctica: Las 3 R</h3>
+      <img src="static/images/Prueba4.png" alt="Prueba 4" width="100%">
+      <p><em>Segmentación interactiva del reciclaje.</em></p>
+    </td>
+  </tr>
+</table>
 
 | 🌎 3. Módulo de Concientización: Futuro |       ♻️ 4. Guía Práctica: Las 3 R        |
 | :-------------------------------------: | :---------------------------------------: |
