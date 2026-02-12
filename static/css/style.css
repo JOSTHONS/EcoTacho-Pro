@@ -1,0 +1,57 @@
+/* ESTILOS PROFESIONALES - ECOTACHO PRO
+    Enfoque: UX Responsivo y paleta de colores natural.
+*/
+
+:root {
+    --color-primary: #1a5336;   /* Verde Bosque: Representa estabilidad */
+    --color-secondary: #2d8a56; /* Verde Acción: Para botones y énfasis */
+    --color-accent: #e9f5ec;    /* Verde Menta: Fondos de lectura ligera */
+}
+
+/* Configuración de Layout para un Sticky Footer (Footer siempre al fondo) */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos de Tipografía Impactante */
+h1, h2, .navbar-brand { 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700; 
+}
+
+/* Navbar Personalizada con sombra suave para profundidad (UX) */
+.navbar-custom { 
+    background-color: var(--color-primary) !important; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+/* Hero Section: Punto de contacto visual principal */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/hero_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Efectos en imágenes: Redondeo profesional y sombras */
+.img-rounded-pro {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-height: 400px;
+    object-fit: cover; /* Evita que la imagen se deforme */
+}
+
+/* Footer: Área de información de créditos y periodo */
+.footer-custom {
+    margin-top: auto;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}

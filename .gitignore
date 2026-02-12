@@ -1,0 +1,11 @@
+# Entorno virtual
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Carpetas de editores
+.vscode/
+.idea/

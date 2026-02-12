@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block content %}
+<div class="container py-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h2 class="text-success fw-bold mb-4">¿Qué es un SGA?</h2>
+      <p>
+        Un **Sistema de Gestión Ambiental** es un conjunto de políticas y
+        prácticas que permiten a las organizaciones reducir su impacto
+        ecológico.
+      </p>
+      <div class="alert alert-success border-0 shadow-sm">
+        <strong>Clave del éxito:</strong> La mejora continua y el cumplimiento
+        de normativas ecológicas vigentes.
+      </div>
+    </div>
+    <div class="col-md-6 text-center">
+      <img
+        src="{{ url_for('static', filename='images/Sistema.jpg') }}"
+        alt="Diagrama de Gestión Ambiental"
+        class="img-fluid img-rounded-pro"
+      />
+    </div>
+  </div>
+</div>
+{% endblock %}

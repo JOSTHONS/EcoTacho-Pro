@@ -1,0 +1,26 @@
+{% extends "base.html" %} {% block content %}
+<div class="container py-5">
+  <div class="row align-items-center flex-row-reverse">
+    <div class="col-md-6 ps-md-5">
+      <h2 class="text-success fw-bold">Preservar para el Futuro</h2>
+      <p class="lead">Nuestras acciones de hoy definen el mundo de mañana.</p>
+      <p>
+        El desarrollo sostenible busca satisfacer las necesidades presentes sin
+        comprometer a las generaciones futuras.
+      </p>
+      <div class="p-3 border-start border-success border-4 bg-light">
+        <p class="fst-italic mb-0">
+          "Cuidar el entorno es un acto de amor hacia quienes vendrán."
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6 text-center mt-4 mt-md-0">
+      <img
+        src="{{ url_for('static', filename='images/futuro.png') }}"
+        alt="Imagen Concientización"
+        class="img-fluid img-rounded-pro shadow-lg"
+      />
+    </div>
+  </div>
+</div>
+{% endblock %}

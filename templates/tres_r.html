@@ -1,0 +1,48 @@
+{% extends "base.html" %} {% block content %}
+<div class="container py-5">
+  <h2 class="text-center fw-bold text-success mb-5">
+    Las 3 R del Cuidado Ambiental
+  </h2>
+
+  <div class="row text-center g-4">
+    <div class="col-md-4">
+      <div
+        class="p-4 bg-white shadow-sm rounded-4 border-bottom border-success border-4 h-100"
+      >
+        <h3 class="h4 fw-bold">📉 Reducir</h3>
+        <p class="small text-muted">
+          Consumir solo lo necesario para disminuir desperdicios.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="p-4 bg-white shadow-sm rounded-4 border-bottom border-success border-4 h-100"
+      >
+        <h3 class="h4 fw-bold">🔄 Reutilizar</h3>
+        <p class="small text-muted">
+          Dar una segunda vida a los objetos antes de desecharlos.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div
+        class="p-4 bg-white shadow-sm rounded-4 border-bottom border-success border-4 h-100"
+      >
+        <h3 class="h4 fw-bold">♻️ Reciclar</h3>
+        <p class="small text-muted">
+          Transformar residuos en nuevos productos útiles.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5">
+    <img
+      src="{{ url_for('static', filename='images/reciclaje.jpg') }}"
+      alt="Proceso de Reciclaje"
+      class="img-fluid img-rounded-pro w-100 shadow"
+    />
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }} | {{ config.app_name }}</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="/">🌿 ECO-TACHO</a>
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="/">Inicio</a>
+          <a class="nav-link" href="/sistema-ambiental">SGA</a>
+          <a class="nav-link" href="/futuro">Futuro</a>
+          <a class="nav-link" href="/tres-r">Las 3 R</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="breadcrumb-container bg-white border-bottom py-2">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            {% for item in breadcrumb %}
+            <li class="breadcrumb-item {% if loop.last %}active{% endif %}">
+              {{ item }}
+            </li>
+            {% endfor %}
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <main>{% block content %}{% endblock %}</main>
+
+    <footer class="footer-custom">
+      <div class="container">
+        <p class="mb-1"><strong>{{ config.materia }}</strong></p>
+        <p class="small mb-1">{{ config.cuatrimestre }}</p>
+        <p class="small">
+          Periodo Académico: <strong>{{ config.periodo_actual }}</strong>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
